@@ -1,0 +1,162 @@
+PALETA #00A8EB #63b7af #abf0e9 #d4f3ef #ee8572 #4cbbb9 #77d8d8 #eff3c6 #ff5722 #dd2c00 #005082 #204051 #3b6978 #84a9ac #cae8d5
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  color: #fff;
+}
+
+.listaBotones {
+  margin: auto;
+  font-weight: bold;
+
+}
+
+.logo {
+  width: 20%;
+  margin-left: 33%;
+}
+
+/* FRASES */
+#quotes {
+  position: relative;
+  padding: 11% 10% 6%;
+  text-align: center;
+  background-color: #005082;
+  color: #fff;
+}
+
+.carousel-item {
+  height: 22rem;
+}
+
+.imagenCitas {
+  border-radius: 100%;
+  width: 11%;
+  margin: 3% 0 1%;
+}
+
+.frases {
+  padding: 3% 4% 1%;
+}
+
+.autores {
+  margin: 0;
+  padding: 0;
+  font-size: 90%;
+  font-style: italic;
+}
+
+/* QUIENES SOMOS */
+.quienesSomos {
+  position: relative;
+  background-color: #d4f3ef;
+  color: #204051;
+  width: 100%;
+  font-weight: bold;
+  padding: 10% 0;
+  text-align: center;
+}
+.textoIntroduccion{
+  text-align: justify;
+}
+p {
+  padding: 2% 15%;
+  font-size: 1.3rem;
+}
+
+/* CANALES */
+#canales {
+  background-color: #005082;
+  padding: 10% 5% 0;
+  text-align: center;
+}
+
+.hredes {
+  color: #fff;
+  padding-bottom: 3%;
+}
+
+.iconored {
+  font-size: 5em;
+  padding: 5%;
+  color: #00A8EB;
+}
+
+.playerContainer{
+  position: relative;
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 36.25%;
+  height: 0;
+}
+.playerContainer iframe{
+  position: absolute;
+  top:10%;
+  left: 25%;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+}
+
+
+/* CONTACTO */
+#contatti {
+  padding-top: 4%;
+  background-color: #d4f3ef;
+  color: #204051;
+}
+
+#contatti a {
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  #contatti {
+    padding-bottom: 800px;
+  }
+
+  #contatti .maps iframe {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media (min-width: 576px) {
+  #contatti {
+    padding-bottom: 800px;
+  }
+
+  #contatti .maps iframe {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contatti {
+    padding-bottom: 350px;
+  }
+
+  #contatti .maps iframe {
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti {
+    padding-bottom: 200px;
+  }
+
+  #contatti .maps iframe {
+    width: 100%;
+    height: 700px;
+  }
+}
+
+/* PIE */
